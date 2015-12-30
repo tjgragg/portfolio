@@ -14,3 +14,33 @@
  *= require_self
  */
 @import "materialize";
+
+.main {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #263238;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  padding-top: .7em;
+}
+
+.name {
+  color: white;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic;
+  letter-spacing: 16px;
+  font-size: 34px;
+}
+
+.avatar, .contact {
+  margin-top: 5px;
+  margin-left: 14em;
+}
+
+footer.page-footer {
+  background-color: transparent;
+}
