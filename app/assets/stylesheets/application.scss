@@ -20,6 +20,30 @@
   background-repeat: no-repeat;
   background-position: top;
   background-color: #263238;
+  color: white;
+}
+
+.head {
+  font-family: Century, CenturyGothic, AppleGothic;
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 120%;
+}
+
+.text {
+  font-family: Helvetica;
+  letter-spacing: 1.5;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+a {
+  color: #00bbff;
+}
+
+a:hover {
+  color: #737173;
 }
 
 .center {
