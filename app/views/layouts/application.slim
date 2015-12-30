@@ -6,9 +6,10 @@ html
     = csrf_meta_tags
     meta name="viewport" content="width=device-width, initial-scale=1.0"
   body
-    nav
-      .nav-wrapper
-        a href="#" class="brand-logo" Logo
-        ul#nav-mobile.right.hide-on-med-and-down
-    .container
-      = yield
+    .main
+      = render "nav"
+      = render "avatar"
+      = render "contact"
+      .container
+        = yield
+      = render "footer"
