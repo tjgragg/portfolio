@@ -15,12 +15,16 @@
  */
 @import "materialize";
 
-.main {
+body{
   background-image: url("bg.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-color: #263238;
   color: white;
+
+}
+.main {
+  margin-left: 10em;
 }
 
 .head {
@@ -36,6 +40,8 @@
   letter-spacing: 1.5;
   font-size: 12px;
   line-height: 120%;
+  margin-left: 2em;
+  margin-right: 10em;
 }
 
 a {
@@ -62,7 +68,6 @@ a:hover {
 
 .avatar, .contact {
   margin-top: 5px;
-  margin-left: 14em;
 }
 
 footer.page-footer {
