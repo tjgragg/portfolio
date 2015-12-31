@@ -15,6 +15,10 @@
  */
 @import "materialize";
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 body{
   background-image: url("bg.jpg");
   background-repeat: no-repeat;
@@ -79,6 +83,7 @@ a:hover {
   margin-top: 5px;
 }
 
-footer.page-footer {
-  background-color: transparent;
+footer {
+  text-align: right;
+  margin-right: 8em;
 }
