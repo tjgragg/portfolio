@@ -20,7 +20,7 @@ html {
 }
 
 body{
-  background: url(asset-path("bg.jpg"));
+  background-image: url(image_path("bg.jpg"));
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
