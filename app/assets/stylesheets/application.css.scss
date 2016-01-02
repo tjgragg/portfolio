@@ -22,11 +22,36 @@ html {
 body{
   background-color: #263238;
   color: white;
-
 }
 .main {
   width: 80%;
   margin: auto;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  padding-top: .7em;
+}
+
+.name {
+  color: white;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic;
+  letter-spacing: 16px;
+  font-size: 34px;
+  width: 100%;
+}
+
+.avatar, {
+  margin-top: 5px;
+}
+
+.contact {
+  font-family: Helvetica;
+  letter-spacing: 1.5;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 .head {
@@ -49,37 +74,12 @@ body{
   line-height: 200%;
 }
 
-.contact {
-  font-family: Helvetica;
-  letter-spacing: 1.5;
-  font-size: 12px;
-}
-
 a {
   color: #00bbff;
 }
 
 a:hover {
   color: #737173;
-}
-
-.center {
-  margin: auto;
-  width: 100%;
-  padding: 10px;
-  padding-top: .7em;
-}
-
-.name {
-  color: white;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic;
-  letter-spacing: 16px;
-  font-size: 34px;
-  width: 100%;
-}
-
-.avatar, .contact {
-  margin-top: 5px;
 }
 
 .float-left {
