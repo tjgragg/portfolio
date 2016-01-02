@@ -36,10 +36,17 @@ body{
 }
 
 .name {
-  color: white;
   font-family: 'Century Gothic', CenturyGothic, AppleGothic;
   letter-spacing: 16px;
   font-size: 34px;
+  width: 100%;
+  margin-bottom: -.8em;
+}
+
+.jobtitle {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic;
+  letter-spacing: 8px;
+  font-size: 17px;
   width: 100%;
 }
 
