@@ -116,7 +116,16 @@ and (min-device-width : 720px) {
     float: left;
     width: 30%;
   }
+
+  .link {
+    float: left;
+    width: 34%;
+    margin: auto;
+    padding: 1em;
+  }
+
 }
+
 .automargin {
   margin: auto;
 }
