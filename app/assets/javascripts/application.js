@@ -16,7 +16,9 @@
 //= require_tree .
 
 $(document).ready(function() {
-  $(".story").hide();
-  $(".MyStory").on('click', function() {
-    $(".story").toggle(1000);
+  $(".my_story_text").hide();
+  $(".my_story").on('click', function() {
+    $(".my_story_text").toggle(1000);
   });
+
+});
