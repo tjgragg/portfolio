@@ -47,9 +47,12 @@ body{
   margin-bottom: 1em;
 }
 
-.avatar img {
-  max-width: 425px;
-  margin-top: 5px;
+.avatar {
+  text-align: center;
+  img {
+    max-width: 425px;
+    margin-top: 5px;
+  }
 }
 
 @media only screen
@@ -67,6 +70,7 @@ and (max-device-width : 425px) {
   letter-spacing: 1.5;
   font-size: 12px;
   margin-top: 5px;
+  text-align: center;
 }
 
 .head {
@@ -74,9 +78,13 @@ and (max-device-width : 425px) {
   letter-spacing: 1px;
   font-size: 1.4em;
   font-weight: normal;
-  margin: auto;
   clear: left;
   cursor: pointer;
+  text-align: center;
+}
+
+.head:hover {
+  background-color: black !important;
 }
 
 .text {
