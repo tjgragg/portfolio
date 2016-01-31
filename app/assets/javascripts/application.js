@@ -21,6 +21,11 @@ $(document).ready(function() {
     $(".my_story_text").toggle(1000);
   });
 
+  $(".repos_toggle").hide();
+  $(".repos").on('click', function() {
+    $(".repos_toggle").toggle(1000);
+  });
+  
   $(".education_text").hide();
   $(".education").on('click', function() {
     $(".education_text").toggle(1000);
