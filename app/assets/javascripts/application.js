@@ -21,10 +21,13 @@ $(document).ready(function() {
     $(".my_story_text").toggle(1000);
   });
 
+  $(".education_text").hide();
+  $(".education").on('click', function() {
+    $(".education_text").toggle(1000);
+  });
 
-
-    $(".work_history_text").hide();
-    $(".work_history").on('click', function() {
-      $(".work_history_text").toggle(1000);
-    })
+  $(".work_history_text").hide();
+  $(".work_history").on('click', function() {
+    $(".work_history_text").toggle(1000);
+  });
 });
