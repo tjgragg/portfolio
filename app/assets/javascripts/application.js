@@ -14,11 +14,3 @@
 //= require jquery_ujs
 //= require materialize-sprockets
 //= require_tree .
-
-$(document).ready(function() {
-  $(".story").hide();
-  $(".MyStory").on('click', function() {
-    $(".story").toggle(1000);
-    // $(".story").show();
-  });
-});
