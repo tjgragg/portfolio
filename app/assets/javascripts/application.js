@@ -24,7 +24,7 @@ $(document).ready(function() {
   $(".tables").hide();
   $(".toggle_tables").on('click', function() {
     $(".tables").toggle(1000);
-    $(".test").toggle(1000);
+    $(".title_header").toggle(1000);
   });
 
   $(".repos_toggle").hide();
