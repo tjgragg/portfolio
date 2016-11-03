@@ -83,6 +83,12 @@ and (max-device-width : 425px) {
   text-align: center;
 }
 
+.tables {
+  // text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
 .head:hover {
   background-color: black !important;
 }
